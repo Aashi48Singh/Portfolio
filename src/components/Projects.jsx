@@ -28,7 +28,7 @@ function Projects() {
           {/* TaskFlow Screenshot */}
           <div className="border border-gray-700 rounded-t-2xl overflow-hidden">
             <img
-              src="/taskflow-dashboard.png"
+              src="/taskflow.png"
               alt="TaskFlow Dashboard"
               className="w-full h-auto block"
             />
