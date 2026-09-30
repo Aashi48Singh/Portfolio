@@ -1,3 +1,4 @@
+import taskflowImage from "../assets/taskflow.png";
 function Projects() {
   return (
     <section
@@ -28,10 +29,15 @@ function Projects() {
           {/* TaskFlow Screenshot */}
           <div className="border border-gray-700 rounded-t-2xl overflow-hidden">
             <img
-              src="/taskflow.png"
+  src={taskflowImage}
+  alt="TaskFlow Dashboard"
+  className="w-full h-auto block"
+/>
+            {/* <img
+              src="/My/src/assets/taskflow.png"
               alt="TaskFlow Dashboard"
               className="w-full h-auto block"
-            />
+            /> */}
           </div>
 
           {/* Project Details */}
